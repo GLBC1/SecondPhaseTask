@@ -1,0 +1,12 @@
+Gary Bradski, Adrian Kaehler «Learning OpenCV. Computer vision with the OpenCV library.»
+ 
+http://www.compvision.ru/forum/index.php?s=b2380f48e1e9b9d255942daf84015526&showtopic=15
+
+http://opencv.willowgarage.com/wiki/
+
+http://opencv.willowgarage.com/wiki/InstallGuide
+
+http://www.thecomputervision.com/resources-wall/?resource=293
+
+http://www.compvision.ru/forum/index.php?showtopic=6
+http://habrahabr.ru/post/134857/#habracut

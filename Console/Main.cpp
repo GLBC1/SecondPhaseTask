@@ -6,6 +6,6 @@ int main()
 	Command c;
 	while (!c.GetCommand());
 	system("pause");
-	//getch
+	
 	return 0;
 }

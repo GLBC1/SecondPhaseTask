@@ -88,7 +88,7 @@ namespace GLBC1
 			if ( !isalnum(ch) )
 				break;
 			LP.log[i] = ch;
-			i ++;
+			i++;
 		}
 
 		cout << "Password:";
@@ -179,7 +179,7 @@ namespace GLBC1
 			cout << HELP << endl;
 			break;
 		case CM_EXIT:
-			cout << "//TODO change rights method\n";
+			cout << "//TODO exit method\n";
 			break;
 		case CM_UNKNOWN: 
 			cout << "Undefined function. To call help, enter -help\n";
@@ -194,6 +194,7 @@ namespace GLBC1
 	{
 		char ch = 0;
 		int i=-1;
+		//cout << "COMMAND: "		just as example
 		cout << "Please enter the command\n";
 		while (cin.get(ch) && ++i<6)
 		{

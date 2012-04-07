@@ -1,0 +1,192 @@
+/*char ch;
+		int i=0;
+
+		cout << "Please enter a login:";
+		while (cin.get(ch))
+		{
+			if (!isalnum(ch))
+				break;
+			login[i]=ch;
+			i++;
+		}
+
+		cout << "Please enter a password:";
+		i=0;
+		while (ch = getch())
+		{
+			if (!isalnum(ch))
+			{
+				cout << '\n';
+				break;
+			}
+			pass[i]=ch;
+			i++;
+		}
+
+		if (login[14] !=0 || pass[14] !=0)
+		{
+			cout << "Bad login or password\n";
+			return 0;
+		}
+		cout << "No connection with the serwer\n" << pass << endl;
+		return 0;*/
+
+/*if ( !strcmp(com,"-li") )
+		{
+			ncom = li; 
+		}
+		else if ( !strcmp(com,"-lo") )
+		{
+			ncom = lo;
+		}
+		else if ( !strcmp(com,"-cu") )
+		{
+		   ncom = cu;
+		}
+		else if ( !strcmp(com,"-gs") )
+		{
+			ncom = gs;
+		}
+		else if ( !strcmp(com,"-cr") )
+		{
+			ncom = cr;
+		}
+		else if ( !strcmp(com,"-he") )
+		{
+		   ncom = he;
+		}
+		/*else if ( !strcmp(com,"-exit") )
+		{
+		   ncom = exit;
+		}*/
+		else
+		{
+		   ncom = 10;
+		}
+		/*if (com[0] != '-' || com[3] != 0) ncom = 10;
+		switch(com[1])
+		{
+		case 'l':
+			{
+				if (com[2] == 'i') ncom = 0;
+				else if(com[2] == 'o') ncom = 1;
+				else ncom = 10;
+			}break;
+		case 'c':
+			{
+				if (com[2] == 'u') ncom = 2;
+				else if(com[2] == 'r') ncom = 4;
+				else ncom = 10;
+			}break;
+		case 'g':
+			{
+				if (com[2] == 's') ncom = 3;
+				else ncom = 10;
+			}break;
+		case 'h':
+			{
+				if (com[2] == 'e') ncom = 5;
+				else ncom = 10;
+			}break;
+		default: ncom = 10;break; 
+		}
+		/*if (com[1] == 'l')
+		{
+			if (com[2] == 'i')
+				return 0;
+			else if (com[2] == 'o')
+				return 1;
+			else return 10;
+		}
+		else if (com[1] == 'c')
+		{
+			if (com[2] == 'u')
+				return 2;
+			else if (com[2] == 'r')
+				return 4;
+			else return 10;
+		}
+		else if (com[1] == 'g')
+		{
+			if (com[2] == 's')
+				return 3;
+			else return 10;
+		}
+		else if (com[1] == 'h')
+		{
+			if (com[2] == 'e')
+				return 5;
+			else return 10;
+		}
+		else return 10;*/
+
+/*char *log = new char[15];
+		char *pas = new char[15];
+		char *logA = new char[15];
+		char *pasA = new char[15];
+		char ch;
+		int i;
+
+		for (i = 0; i < 15; i++)
+		{
+			log[i] = 0;
+			pas[i] = 0;
+			logA[i] = 0;
+			pasA[i] = 0;
+		}
+
+		i = 0;
+		cout << "Please enter login new user:";
+		while (cin.get(ch))
+		{
+			if (!isalnum(ch))
+				break;
+			log[i]=ch;
+			i++;
+		}
+
+		cout << "Please enter password new user:";
+		i=0;
+		while (ch = getch())
+		{
+			if (!isalnum(ch))
+			{
+				cout << '\n';
+				break;
+			}
+			pas[i]=ch;
+			i++;
+		}
+
+		if (log[14]!=0 || pas[14] !=0)
+		{
+			cout << "Bad login or password\n";
+			return 0;
+		}
+
+		cout << "To complete a user, must enter the administrator password\n";
+
+		i = 0;
+		cout << "Please enter the administrator login:";
+		while (cin.get(ch))
+		{
+			if (!isalnum(ch))
+				break;
+			logA[i]=ch;
+			i++;
+		}
+
+		cout << "Please enter the administrator password:";
+		i=0;
+		while (ch = getch())
+		{
+			if (!isalnum(ch))
+			{
+				cout << '\n';
+				break;
+			}
+			pasA[i]=ch;
+			i++;
+		}
+		cout << "No connection with the serwer\n";
+		return 0;*/

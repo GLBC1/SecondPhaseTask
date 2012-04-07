@@ -1,0 +1,32 @@
+﻿Построение начато 07.04.2012 18:22:11.
+     1>Проект "E:\A_Programing\SecondPhaseTask\Video\video\video\video.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Release\video.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+         e:\A_Programing\VS10\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\video.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt video.cpp
+         video.cpp
+     1>C:\OpenCV2.2\include\opencv2/flann/logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\A_Programing\VS10\VC\include\stdio.h(234): см. объявление "fopen"
+     1>video.cpp(42): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\A_Programing\VS10\VC\include\string.h(105): см. объявление "strcpy"
+     1>video.cpp(109): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\A_Programing\VS10\VC\include\string.h(105): см. объявление "strcpy"
+     1>video.cpp(114): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\A_Programing\VS10\VC\include\string.h(105): см. объявление "strcpy"
+       Link:
+         e:\A_Programing\VS10\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\A_Programing\SecondPhaseTask\Video\video\Release\video.exe" /INCREMENTAL:NO /NOLOGO C:\OpenCV2.2\lib\opencv_core220d.lib C:\OpenCV2.2\lib\opencv_highgui220d.lib C:\OpenCV2.2\lib\opencv_video220d.lib C:\OpenCV2.2\lib\opencv_ml220d.lib C:\OpenCV2.2\lib\opencv_legacy220d.lib C:\OpenCV2.2\lib\opencv_imgproc220d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\video.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\A_Programing\SecondPhaseTask\Video\video\Release\video.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\A_Programing\SecondPhaseTask\Video\video\Release\video.lib" /MACHINE:X86 Release\stdafx.obj
+         Release\video.obj
+         Создание кода
+         Создание кода завершено
+         video.vcxproj -> E:\A_Programing\SecondPhaseTask\Video\video\Release\video.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\A_Programing\SecondPhaseTask\Video\video\Release\video.exe;#1" /manifest Release\video.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Файл "Release\video.unsuccessfulbuild" удаляется.
+         Обращение к "Release\video.lastbuildstate".
+     1>Построение проекта "E:\A_Programing\SecondPhaseTask\Video\video\video\video.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:03.42

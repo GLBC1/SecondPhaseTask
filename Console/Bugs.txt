@@ -1,0 +1,5 @@
+1. Bug with login -> logout.
+   How to repeat: Enter -li and enter correct data in LOGIN and PASSWORD, then enter -lo and you will see that command isn't working correctly;
+   ScreenShoot: http://screen.ticno.com/index.php?image=YCqyVx6xL7YNQhZVgHxf.jpg
+
+2. Login and password cannot be filled with CYR letters and spaces.
